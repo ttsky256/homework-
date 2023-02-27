@@ -1,0 +1,183 @@
+.header{
+    width: 80%;
+    height: 130px;
+    margin: 0 auto;
+    position: relative;
+}
+.mall-title{
+    color: black;
+    font-family: 宋体, serif;
+    font-size: 50px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    text-decoration: none;
+}
+.mall-title a{
+    color: purple;
+    text-decoration: none;
+}
+.navigation-container
+{
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    margin: auto;
+    height: 40px;
+}
+.header2{
+    width: 60%;
+    height: 130px;
+    margin: 0 auto;
+    position: absolute;
+    top: 130px;
+    left: 15px;
+}
+.welcome{
+    position: absolute;
+    left: 810px;
+    top: 60%;
+    transform: translateY(-300%);
+    background-color: #66CCFF;
+}
+.welcome-word{
+     color: peachpuff;
+     font-size: 20px;
+     font-family: 宋体, serif;
+ }
+.car-container
+{
+    height: 100%;
+    width: 120px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.car-container img{
+    height: 40px;
+    right: 40px;
+}
+.car-container span{
+    position: absolute;
+    width: 60px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 20px;
+    font-family: 黑体, serif;
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+.block{
+    height: 180px;
+    width: 24%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    z-index: 1;
+}
+.block img{
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.good-name{
+    font-size: 40px;
+    width: 100%;
+    font-family: 黑体, serif;
+    text-align: center;
+    color: darkgoldenrod;
+}
+.good-detail{
+    font-size: 12px;
+    width: 100%;
+    font-family: 宋体, serif;
+    text-align: center;
+    margin-top: 6px;
+    color: darkorchid;
+}
+.price{
+    font-size: 20px;
+    width: 100%;
+    font-family: 黑体, serif;
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+.stock{
+    font-size: 12px;
+    width: 90%;
+    font-family: 宋体, serif;
+    text-align: right;
+    margin-top: 6px;
+    color: darkslategray;
+}
+.block:hover{
+    background-color: floralwhite;
+}
+
+body{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width:100%;
+
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-position: 0;
+    z-index: -10;
+}
+.good-name a{
+    color: black;
+    text-decoration: none;
+}
+.good-name a:hover{
+    color: #66CCFF;
+}
+.user-orders{
+    position: absolute;
+    right: 800px;
+    width: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right-style: solid;
+    border-right-color: white;
+}
+.user-orders a{
+    text-decoration: none;
+    color: white;
+    font-family: 黑体, serif;
+    font-size: 20px;
+}
+.user-adds{
+    position: absolute;
+    right: 660px;
+    width: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right-style: solid;
+    border-right-color: white;
+}
+.user-adds a{
+    text-decoration: none;
+    color: white;
+    font-family: 黑体, serif;
+    font-size: 20px;
+}

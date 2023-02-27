@@ -1,0 +1,136 @@
+.header{
+    width: 80%;
+    height: 130px;
+    margin: 0 auto;
+    position: relative;
+}
+.mall-title{
+    color: black;
+    font-family: 黑体, serif;
+    font-size: 50px;
+    position: absolute;
+    left: 15%;
+    top: 5px;
+    text-decoration: none;
+}
+.mall-title a{
+    color: blue;
+    text-decoration: none;
+}
+.navigation-container
+{
+    background-color: chocolate;
+    position: absolute;
+    top: 85px;
+    left: 10%;
+    width: 80%;
+    margin: auto;
+    height: 40px;
+}
+.welcome{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.car-container
+{
+    height: 100%;
+    width: 120px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.welcome-word{
+    color: white;
+    font-size: 20px;
+    font-family: 黑体, serif;
+}
+.car-container img{
+    height: 40px;
+    right: 40px;
+}
+.car-container span{
+    position: absolute;
+    width: 60px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 20px;
+    font-family: 黑体, serif;
+    text-decoration: none;
+}
+.content-container{
+    position: relative;
+    width: 60%;
+    margin: 0 auto 0;
+}
+.title-container{
+    margin: 3% auto 0;
+    width: 100%;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 18px;
+    font-family: 黑体, serif;
+}
+.ctime-title{
+    width: 40%;
+}
+.price-title{
+    width: 20%;
+}
+.dynamic-container{
+    width: 40%;
+}
+.block{
+    height: 4%;
+    width: 100%;
+    margin: 0 auto 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    font-family: 黑体, serif;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+.ctime{
+    width: 40%;
+}
+.price{
+    width: 20%;
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.button-container button{
+    margin: auto 15% auto 15%;
+    width: 20%;
+}
+.payed-word{
+    width: 100%;
+}
+body{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width:100%;
+
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-position: 0;
+    z-index: -10;
+}
