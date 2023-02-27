@@ -62,13 +62,14 @@
 .title-container{
     margin: 8% auto 0;
     width: 100%;
-    border-top-style: solid;
-    border-bottom-style: solid;
+    border-top-style: none;
+    border-bottom-style: double;
     display: flex;
     justify-content: flex-start;
     text-align: center;
     font-size: 25px;
     font-family: 黑体, serif;
+
 }
 .name-title{
     width: 50%;
@@ -90,7 +91,7 @@
     font-family: 黑体, serif;
     text-align: center;
     border-bottom-style: solid;
-    border-bottom-width: thin;
+    border-bottom-width: medium;
 }
 .name{
     width: 50%;
